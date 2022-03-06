@@ -1,8 +1,9 @@
-.coverWrap {
+.wrap {
   height: 100vh;
   max-height: 100vh;
   text-align: center;
   vertical-align: middle;
+  font-family:'Noto Serif KR', serif;
 }
 
 .names {
@@ -18,19 +19,16 @@
 }
 
 .largeText {
-  font-family:'Noto Serif KR', serif;
   font-size: 6.0em;
   margin: 0;
 }
 
 .mediumText {
-  font-family:'Noto Serif KR', serif;
   font-size: 1.5em;
   margin: 0;
 }
 
 .smallText {
-  font-family:'Noto Serif KR', serif;
   font-size: 1.2em;
   margin: 0;
 }

@@ -4,7 +4,7 @@ import { faHeart } from "@fortawesome/free-solid-svg-icons";
 
 export default function Cover() {
   return (
-    <div className={styles.coverWrap}>
+    <div className={styles.wrap}>
       <div className={styles.names}>
         <span className={styles.mediumText}>전대한 </span>
         <FontAwesomeIcon icon={ faHeart } className={styles.smallText}/>
