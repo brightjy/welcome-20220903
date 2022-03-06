@@ -1,0 +1,37 @@
+.coverWrap {
+  height: 100vh;
+  max-height: 100vh;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.names {
+  padding: 20vh 0 0 0;
+}
+
+.date {
+  padding: 10vh 0 0 0;
+}
+
+.site {
+  padding: 10vh 0 0 0;
+}
+
+.largeText {
+  font-family:'Noto Serif KR', serif;
+  font-size: 6.0em;
+  margin: 0;
+}
+
+.mediumText {
+  font-family:'Noto Serif KR', serif;
+  font-size: 1.5em;
+  margin: 0;
+}
+
+.smallText {
+  font-family:'Noto Serif KR', serif;
+  font-size: 1.2em;
+  margin: 0;
+}
+
