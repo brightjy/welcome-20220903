@@ -1,0 +1,20 @@
+.wrap {
+    text-align: center;
+    font-family:'Noto Serif KR', serif;
+}
+
+.calendarHeader {
+    font-size: 1.3em;
+    font-weight: bold;
+    font-family:'Noto Serif KR', serif;
+    padding-bottom: 1vh;
+}
+
+.calendarContents {
+    font-family:'Noto Serif KR', serif;
+    border: none;
+}
+
+.calendar {
+    background-color: white !important;
+}
