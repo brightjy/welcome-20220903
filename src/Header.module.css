@@ -1,0 +1,25 @@
+.header {
+  text-align: center;
+  position:fixed;
+  top:0;
+  width:90%;
+  background-color: white;
+  padding: 5% 0 2% 8%;
+  z-index: 9999999999999;
+}
+
+.header span {
+  /* border:1px solid grey; */
+  width: 30%;
+  height: 70px;
+  line-height: 70px;
+  display: block;
+  float: left;
+  font-size: 1.2em;
+}
+
+.dateImg {
+  width:60px;
+  height:60px;
+  margin: 0;
+}

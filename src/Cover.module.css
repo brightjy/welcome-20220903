@@ -1,34 +1,9 @@
-.wrap {
-  height: 100vh;
-  max-height: 100vh;
-  text-align: center;
-  vertical-align: middle;
+.img {
+  padding:20% 0 0 0;
+  width:100%;
 }
 
-.names {
-  padding: 15vh 0 0 0;
-}
 
-.date {
-  padding: 10vh 0 0 0;
-}
 
-.site {
-  padding: 8vh 0 0 0;
-}
 
-.largeText {
-  font-size: 6.0em;
-  margin: 0;
-}
-
-.mediumText {
-  font-size: 1.5em;
-  margin: 0;
-}
-
-.smallText {
-  font-size: 1.0em;
-  margin: 0;
-}
 
