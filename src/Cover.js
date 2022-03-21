@@ -1,7 +1,5 @@
 import styles from "./Cover.module.css";
 import SampleImg from "./sample.png";
-// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-// import { faHeart } from "@fortawesome/free-solid-svg-icons";
 // import Calendar from "./Calendar";
 
 

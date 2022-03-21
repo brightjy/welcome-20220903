@@ -24,7 +24,7 @@ export default function Map() {
 
   return (
     <div className={styles.wrap}>
-      <p className={styles.title}>오시는 길</p>
+      <p className={styles.title}>- 오시는 길 - </p>
       <div id="map" 
           className={styles.map}
           ref={container}  
