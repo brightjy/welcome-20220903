@@ -3,22 +3,15 @@
   max-height: 100vh;
   vertical-align: middle;
   text-align: center;
+  /* border:1px solid grey; */
 }
 
 .poet {
-  padding: 20vh 0 0 0;
+  padding: 20% 0 20% 0;
   font-size: 1.0em;
 }
 
 .icon {
   padding: 5vh 0 0 0;
-}
-
-.parents {
-  padding: 10vh 0 0 0;
-}
-
-.parents span {
-  font-size: 1.2em;
-  font-weight: bold;
+  color: #ffda79;
 }

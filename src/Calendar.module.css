@@ -1,5 +1,7 @@
 .wrap {
     text-align: center;
+    padding-top: 30%;
+    /* border: 1px solid grey; */
 }
 
 .calendarHeader {

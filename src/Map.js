@@ -11,9 +11,16 @@ export default function Map() {
 
   const mapScript = () => {
     const options = {
+      // naver setting
+      // center: new naver.maps.LatLng(37.56089777825856, 126.96812240202205),
+      // zoom: 10
+
+      //kakao setting
       center: new window.kakao.maps.LatLng(37.56089777825856, 126.96812240202205),
       level: 3
     };
+    // var map = new naver.maps.Map(container.current, options);
+    // kakao
     const map = new window.kakao.maps.Map(container.current, options);
     const marker = new kakao.maps.Marker({
       position: new kakao.maps.LatLng(37.56089777825856, 126.96812240202205)
@@ -30,10 +37,15 @@ export default function Map() {
           ref={container}  
         >
       </div>
+      <div>
+        <a className={styles.searchMap} href="https://map.kakao.com/link/to/아벤티움,37.56089777825856,126.96812240202205">
+          아벤티움까지 길찾기 (클릭)
+        </a>
+      </div>
       <div className={styles.info}> 
         <p>
           <span className={styles.bold}>[주소]</span><br></br>
-          서울특별시 중구 청파로 464 브라운스톤서울 3층 (중림동 355 브라운스톤서울 3층) 아벤티움 웨딩홀
+          서울특별시 중구 청파로 464 브라운스톤서울 3층<br></br>(중림동 355 브라운스톤서울 3층) 아벤티움 웨딩홀
         </p>
         <p>
           <span className={styles.bold}>[지하철 이용 시]</span><br></br>

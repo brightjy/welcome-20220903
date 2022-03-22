@@ -10,10 +10,10 @@
   top:0;
   width:100%;
   z-index: 9999999999999;
-  padding-bottom: 10px;  
-  background-color: white;
-  height:70px;
-  padding-top:5px;
+  /* padding-bottom: 15px;   */
+  background-color: #ffda79;
+  height:80px;
+  /* padding-top:5px; */
 }
 
 .first {
@@ -21,7 +21,8 @@
   width:100%;
   height: 80px;
   text-align: center;
-  padding-left:11%;
+  /* padding-left:11%; */
+  border-bottom: #ecf0f1;
 }
 
 .second {
@@ -45,9 +46,13 @@
   height: 80px;
   line-height: 80px;
   font-size: 1.3em;
-  width:32%;
+  width:42.5%;
   float: left;
   text-align: center;
+}
+
+.name:nth-child(2) {
+  width:15%;
 }
 
 .dateImg {

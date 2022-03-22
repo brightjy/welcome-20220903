@@ -10,39 +10,34 @@
   padding: 0 0 15px 0;
 }
 
-.map {
-  margin:0;
-  padding:0;
-  width: 100%;
-  height: 35vh;
+.parents {
+  padding: 10% 0 0 0;
+  width:100%;
+  text-align: center;
 }
 
-.searchMap {
+.parents span {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.message {
+  margin: 15% 0 10% 0;
+  text-align: center;
+}
+
+.contact {
   text-decoration: none;
   /* border:1px solid #ffda79; */
   width:98%;
   text-align: center;
   padding:10px 0;
-  margin-top: 5px;
-  margin-bottom: 5px;
+  margin-top: 10%;
+  /* margin-bottom: 20%; */
   margin-left: 1%;
   cursor: pointer;
   border-radius: 5px;
   background-color: #f7f1e3;
   display: block;
   color: black;
-}
-
-.info {
-  padding: 2vh 0 2vh 1%;
-  font-size: 0.8em;
-}
-
-.bold {
-  font-weight: bold;
-  font-size: 1.0em;
-}
-
-p {
-  margin-bottom: 10px;
 }
