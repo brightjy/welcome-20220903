@@ -1,9 +1,9 @@
-import styles from "./Parents.module.css";
+import styles from "./Greeting.module.css";
 // import Calendar from "./Calendar.js";
 import Contact from "./Contact";
 import { useState } from "react";
 
-export default function Parents(props) {
+export default function Greeting(props) {
   const {} = props;
   const [popup, handlePopup] = useState(false);
   return (
@@ -28,7 +28,7 @@ export default function Parents(props) {
         >
           혼주에게 연락하기
         </a>
-        {popup && <Contact onClose={handlePopup} />}
+        {popup && <Contact onClose={ handlePopup } />}
       </div>
       {/* <Calendar /> */}
     </div>
