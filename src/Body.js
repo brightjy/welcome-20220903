@@ -2,9 +2,10 @@ import Poet from "./Poet";
 import Map from "./Map";
 import Cover from "./Cover";
 import styles from "./Body.module.css";
-import { BrowserRouter, Route, Routes, useParams } from 'react-router-dom';
+import { BrowserRouter, Route, Routes} from 'react-router-dom';
 import Greeting from "./Greeting";
 import Gallery from "./Gallery";
+import Account from "./Account";
 
 export default function Body() {
   return (  
@@ -12,11 +13,10 @@ export default function Body() {
     <BrowserRouter>
       <Cover />
       <Poet />
-      <Routes>
-        <Route path="/welcome-20220903/p" element={ <Greeting /> } />
-      </Routes>
+      <Greeting />
       <Gallery />
       <Map />
+      <Account />
     </BrowserRouter>
 </div>
   )

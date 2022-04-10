@@ -1,30 +1,22 @@
 .wrap {
   margin: 0;
-  padding: 20% 0 20% 0;
+  padding: 5% 0 20% 0;
   /* border:1px solid grey; */
 }
 
 .title {
   text-align: center;
   font-size: 1.2em;
-  padding: 0 0 15px 0;
+  padding: 0 0 3vh 0;
 }
 
-.map {
-  margin:0;
-  padding:0;
-  width: 100%;
-  height: 35vh;
-}
-
-.searchMap {
+.contact {
   text-decoration: none;
   /* border:1px solid #ffda79; */
   width:98%;
   text-align: center;
   padding:10px 0;
-  margin-top: 5px;
-  margin-bottom: 5px;
+  /* margin-bottom: 20%; */
   margin-left: 1%;
   cursor: pointer;
   border-radius: 5px;
@@ -33,16 +25,6 @@
   color: black;
 }
 
-.info {
-  padding: 2vh 0 2vh 1%;
-  font-size: 0.9em;
-}
-
-.bold {
-  font-weight: bold;
-  font-size: 1.0em;
-}
-
-p {
-  margin-bottom: 10px;
+.button {
+  margin-bottom: 1vh;
 }

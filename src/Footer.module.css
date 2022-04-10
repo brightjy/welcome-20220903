@@ -1,13 +1,13 @@
 .footer {
-  position:fixed;
-  bottom:0;
-  width:100%;
-  text-align: center;
-  height: 10vh;
-  line-height: 10vh;
-  z-index: 999999999;
-  padding: 2% 0 1% 0;
-  background-color: #f7f1e3;
+  position:fixed !important;
+  bottom:0 !important;
+  width:100% !important;
+  text-align: center !important;
+  height: 10vh !important;
+  line-height: 10vh !important;
+  z-index: 999999999 !important;
+  padding: 2% 0 1% 0 !important;
+  background-color: #f7f1e3 !important;
 }
 
 .smallText {

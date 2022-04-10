@@ -39,7 +39,7 @@ export default function Map() {
       </div>
       <div>
         <a className={styles.searchMap} href="https://map.kakao.com/link/to/아벤티움,37.56089777825856,126.96812240202205">
-          아벤티움까지 길찾기 (클릭)
+          아벤티움까지 길찾기 (지도 연결)
         </a>
       </div>
       <div className={styles.info}> 

@@ -35,7 +35,7 @@ export default function Contact(props) {
         </tr>
       </table>
       <div className={styles.closeWrap} onClick={() => { onClose(false); }}>
-        <FontAwesomeIcon icon={faArrowAltCircleUp} className={styles.close}/>
+        <FontAwesomeIcon icon={faArrowAltCircleUp} className={styles.close}/> 접기
     </div>
     </div>
   )

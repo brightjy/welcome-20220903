@@ -1,8 +1,4 @@
 import styles from "./Header.module.css";
-// import DateImg from "./date.png";
-// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-// import { faHeart } from "@fortawesome/free-solid-svg-icons";
-// import { BrowserRouter, Routes, Route } from "react-router-dom";
 import moment from "moment";
 
 export default function Header(props) {
@@ -15,15 +11,11 @@ export default function Header(props) {
         <div className={styles.name}>
           전대한
         </div>
-        {/* <span className={styles.heart}><FontAwesomeIcon icon={faHeart} /></span> */}
         <div className={styles.name}>
-          D{ diffDays }
-          {/* 09/03 */}
-          {/* <img src={DateImg} className={styles.dateImg} alt="0903" /> */}
+          {diffDays == 0 ? `D-day` : `D${diffDays}`}
         </div>
         <div className={styles.name}>박지영</div>
       </div>
-      {/* <div className={styles.second}>9월 3일 토요일 오전 11시 아벤티움</div> */}
   </div>
  );
 }
