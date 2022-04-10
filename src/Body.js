@@ -4,10 +4,9 @@ import Cover from "./Cover";
 import styles from "./Body.module.css";
 import { BrowserRouter, Route, Routes, useParams } from 'react-router-dom';
 import Greeting from "./Greeting";
+import Gallery from "./Gallery";
 
 export default function Body() {
-  const { sth } = useParams();
-  console.log({sth});
   return (  
   <div className={styles.wrap}>
     <BrowserRouter>
@@ -16,6 +15,7 @@ export default function Body() {
       <Routes>
         <Route path="/welcome-20220903/p" element={ <Greeting /> } />
       </Routes>
+      <Gallery />
       <Map />
     </BrowserRouter>
 </div>
