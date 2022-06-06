@@ -1,10 +1,9 @@
 .wrap {
   /* border:1px solid grey; */
   text-align: center;
-  height:200px;
+  height:250px;
   padding: 20px 0 0 0;
   overflow-x:hidden; 
-  overflow-y:auto;
 }
 table {
   width: 100%;
