@@ -12,7 +12,7 @@ export default function Body() {
   <div className={styles.wrap}>
     <BrowserRouter>
       <Cover />
-      <Poet />
+      {/* <Poet /> */}
       <Greeting />
       <Gallery />
       <Map />

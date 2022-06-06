@@ -1,11 +1,15 @@
 import styles from "./Poet.module.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHeart } from "@fortawesome/free-solid-svg-icons";
+import Calendar from "./calendar.png";
 
 export default function Poet() {
   return (
     <div className={styles.wrap}>
-      <div className={styles.poet}>
+      <div>
+        <img src={Calendar} alt="calendar image" className={styles.img} />
+      </div>
+      {/* <div className={styles.poet}>
         <FontAwesomeIcon icon={ faHeart } className={styles.icon}/>
         <p><br></br></p>
         <p>사랑하는 사람이기보다는</p>
@@ -21,7 +25,7 @@ export default function Poet() {
         <p><br></br></p>
         <p>비는 싫지만 소나기는 좋고</p>
         <p>인간은 싫지만 너만은 좋다.</p>
-      </div>
+      </div> */}
     </div>
   );
 }

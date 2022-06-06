@@ -1,4 +1,5 @@
 .wrap {
+  width: 100%;
   height: 100vh;
   max-height: 100vh;
   vertical-align: middle;
@@ -14,4 +15,9 @@
 .icon {
   padding: 5vh 0 0 0;
   color: #ffb142;
+}
+
+.img {
+  width:100%;
+  /* margin: 3vh 0; */
 }

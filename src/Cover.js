@@ -2,6 +2,7 @@ import styles from "./Cover.module.css";
 import Footer from "./Footer";
 import Header from "./Header";
 import SampleImg from "./sample.png";
+import CoverImg from "./cover06060.png";
 import moment from "moment";
 // import Calendar from "./Calendar";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -11,7 +12,7 @@ import { faHeart } from "@fortawesome/free-solid-svg-icons";
 export default function Cover() {
   const date1 = moment();
   const date2 = moment("2022-09-03");
-  const diffDays = date2.diff(date1, "days");
+  const diffDays = date2.diff(date1, "days")+1;
   return (
     <div className={styles.wrap}>
       <div className={styles.title}> 
@@ -24,11 +25,11 @@ export default function Cover() {
         </span>   
       </div>
       <div>
-        <img src={SampleImg} alt="sample" className={styles.img} />
+        <img src={CoverImg} alt="cover image" className={styles.img} />
       </div>
-      <div className={styles.when}>
-        <span>2022년 09월 03일 토요일 <br></br> 오전 11시 / 아벤티움</span>
-      </div>
+      {/* <div className={styles.when}>
+        <span>2022년 09월 03일 토요일 <br></br> 오전 11시 | 아벤티움</span>
+      </div> */}
     </div>
   );
 }

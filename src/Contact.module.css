@@ -1,9 +1,10 @@
 .wrap {
   /* border:1px solid grey; */
-  width:100%;
   text-align: center;
   height:200px;
   padding: 20px 0 0 0;
+  overflow-x:hidden; 
+  overflow-y:auto;
 }
 table {
   width: 100%;
@@ -20,7 +21,7 @@ hr {
   margin: 0px auto;
   margin-top: 15px;
   margin-bottom: 15px;
-  border: 1px solid #f7f1e3;
+  border: 1px solid #d8e0d6;
 }
 
 .closeWrap {
@@ -31,10 +32,10 @@ hr {
 
 .close {
   font-size: 1.2em;
-  color:#ffb142;
+  color:#45793d;
 }
 
 .phone {
-  color: #ffb142;
+  color: #45793d;
   font-size: 1.2em;
 }

@@ -2,18 +2,21 @@
   margin: 0;
   padding: 20% 0 20% 0;
   /* border:1px solid grey; */
+  overflow-x:hidden; 
+  overflow-y:auto;
 }
 
 .title {
   text-align: center;
   font-size: 1.2em;
-  padding: 0 0 15px 0;
+  padding: 0 0 5vh 0;
+  color: #45793d;
 }
 
 .map {
   margin:0;
   padding:0;
-  width: 100%;
+  width: auto;
   height: 35vh;
 }
 
@@ -28,7 +31,7 @@
   margin-left: 1%;
   cursor: pointer;
   border-radius: 5px;
-  background-color: #f7f1e3;
+  background-color: #d8e0d6;
   display: block;
   color: black;
 }
